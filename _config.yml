@@ -1,0 +1,41 @@
+default_locale: "nl"
+permalink: pretty
+paginate: 4
+port: 4000
+host: 10.0.0.8
+url: http://www.harveyvandermeer.nl
+paginate_path: "blog/:num"
+fotoshoots:
+  zwangerschap:
+    prijs: €100,00
+    aantal: 20
+    duur: 1½
+  newborn:
+    prijs: €125,00
+    aantal: 20
+    duur: 2
+  ukkies:
+    prijs: €75,00
+    aantal: 10
+    duur: ½
+  kids:
+    prijs: €75,00
+    aantal: 10
+    duur: ½
+  lovers:
+    prijs: €75,00
+    aantal: 20
+    duur: 1
+  gezin:
+    prijs: €75,00
+    aantal: 20
+    duur: 1
+  kinderfeestje:
+    prijs: €15,00
+    aantal: 2
+    duur: 2
+plugins:
+  - jekyll-paginate
+
+
+

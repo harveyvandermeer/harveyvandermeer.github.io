@@ -1,7 +1,125 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+---
+layout: default
+title: Portret, Zwangerschap, Newborn & Kinder fotograaf in Tilburg
+description: null
+active: home
+images:
+- image: 20131027-1656291.jpg
+  type: landscape
+  href: /fotoshoots/lovers/
+  topleft:
+    caption: Wie veras jij met een valentijn love shoot?
+    color: white
+  bottomright:
+    caption: Slechts 75 euro
+    color: white
+  hidden: true
+- image: banner-vaderdag.jpg
+  type: landscape
+  posturl: 2014-05-21-vaderdag-actie
+  bottomright:
+    caption: September actiemaand! 40% korting op alle fotoshoots!
+    color: black
+  hidden: true
+- image: 20140606-1552592.jpg
+  type: landscape
+- image: 20150103-1237015.jpg
+  type: landscape
+- image: 20140920-1609370.jpg
+  type: landscape
+- image: 20131123-1353079.jpg
+  type: landscape
+- image: 20131019-1215228.jpg
+  type: landscape
+- image: 20140606-1425241.jpg
+  type: landscape
+- image: 20150102-1226473.jpg
+  type: landscape
+- image: 20141227-1118224.jpg
+  type: landscape
+- image: 20140531-1025388.jpg
+  type: landscape
+- image: 20131212-1858453.jpg
+  type: landscape
+- image: 20140425-0916553.jpg
+  type: landscape
+- image: 20141214-1131515_edit.jpg
+  type: landscape
+- image: 20131207-1233046.jpg
+  type: landscape
+- image: 20131123-1331173_edit_v2.jpg
+  type: landscape
+- image: 20141129-1459219.jpg
+  type: landscape
+- image: 20141129-1544246.jpg
+  type: landscape
+- image: 20140215-1034108.jpg
+  type: landscape
+  alt: Fotoshoot Kids
+- image: 20130720-1520169.jpg
+  type: landscape
+- image: 20121204-1138396.jpg
+  type: landscape
+- image: 20140628-1137191.jpg
+  type: landscape
+- image: 20150103-1322149.jpg
+  type: landscape
+- image: 20150102-1109016.jpg
+  type: landscape
+---
+<div id="content-wrapper">
+
+<section id="ajaxpage" class="homepage">
+<!--start project display-->
+	<div class="featured-media-container clearfix">
+		<div class="flexslider">
+			<ul class="slides">
+				{% for entry in page.images %}
+                                  {% if entry.hidden != true %}
+                                        {% assign href = null %}
+					{% if entry.href %} 
+                                          {% assign href = entry.href %}
+                                        {% elsif entry.posturl %}
+                                          {% assign href = post_url entry.posturl %}
+                                        {% else %}
+                                          {% assign keywords = entry.keywords | downcase %}
+					  {% if keywords contains 'zwangerschap' %} 
+                                            {% assign href = '/fotoshoots/zwangerschap/' %}
+					  {% elsif keywords contains 'ukkies' %} 
+                                            {% assign href = '/fotoshoots/ukkies/' %}
+					  {% elsif keywords contains 'kids' %} 
+                                            {% assign href = '/fotoshoots/kids/' %}
+					  {% elsif keywords contains 'newborn' %} 
+                                            {% assign href = '/fotoshoots/newborn/' %}
+					  {% elsif keywords contains 'lovers' %} 
+                                            {% assign href = '/fotoshoots/lovers/' %}
+					  {% elsif keywords contains 'kinderfeestje' %} 
+                                            {% assign href = '/fotoshoots/kinderfeestje/' %}
+					  {% elsif keywords contains 'portret' %} 
+                                            {% assign href = '/fotoshoots/portret/' %}
+                                          {% endif %}
+                                        {% endif %}
+					<li>
+                                          {% if href %}
+					    <a href="{{ href }}"><img src="/images/pictures/cartel_slider/{{ entry.image }}" width="870" height="435" alt="" /></a>
+                                          {% else %}
+					    <img src="/images/pictures/cartel_slider/{{ entry.image }}" width="870" height="435" alt="" />
+                                          {% endif %}
+                                          {% if entry.topleft %}
+						<div class="caption caption-color-{{ entry.topleft.color }} topLeft caption-striped small" style="width:100%;">
+							<span>{{ entry.topleft.caption }}</span>
+						</div>
+                                          {% endif %}
+                                          {% if entry.bottomright %}
+						<div class="caption caption-color-{{ entry.bottomright.color }} bottomRight caption-striped small" style="width:100%;">
+							<span>{{ entry.bottomright.caption }}</span>
+						</div>
+                                          {% endif %}
+					</li>
+                                  {% endif %}
+				{% endfor %}
+			</ul>
+        	</div>
+	</div>
+</section>
+</div>
