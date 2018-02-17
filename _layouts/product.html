@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div id="content-wrapper">
+
+<section class="homepage clearfix">
+	<!--start section title-->
+	<h4>{{ page.title }}</h4>
+	{{ content }}
+
+	{% if page.product %}	
+	<div class="divider clearfix"></div>
+
+	<h6>Prijzen</h6>
+	<div id="pricing_grid">
+          {% for aspect in site.data.products[page.product] %}
+		<table>
+		<colgroup>
+			<col class="oce-first"/>
+		</colgroup>
+		<thead>
+			<tr>
+				<th scope="col">{{ aspect.title }}</th>
+				<th style="text-align: right;" scope="col">Prijs</th>
+			</tr>
+		</thead>
+		<tbody>
+		  {% for product in aspect.products %}
+			<tr>
+				<td>{{ product.size }}</td>
+				<td style="text-align: right;" >{{ product.price }}</td>
+			</tr>
+		  {% endfor %}
+		</tbody>
+		</table>
+	  {% endfor %}
+	</div>
+	{% endif %}
+</section>
+</div>

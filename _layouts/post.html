@@ -1,0 +1,42 @@
+---
+layout: blog
+---
+                    <article class="blog-post">
+                        <div class="blog-post-content">
+                        	<div class="blog-post-featured-media">
+                            	 <div class="thumb">
+                                    <a href="{{ page.url }}" data-logo="/images/logo.png">
+                                        <img src="{{ page.site }}/images/pictures/{{ page.image }}" alt="{{ page.title }}" />
+                                    </a>
+                                </div>
+                            	<div class="blog-post-meta-date">
+                                    <span class="day">{{ page.date | date: "%d"}}</span>
+                                    <span class="month">
+					{% assign m = page.date | date: "%-m" %}
+					{% case m %}
+					  {% when '1' %}Jan
+					  {% when '2' %}Feb
+					  {% when '3' %}Mrt
+					  {% when '4' %}Apr
+					  {% when '5' %}Mei
+					  {% when '6' %}Jun
+					  {% when '7' %}Jul
+					  {% when '8' %}Aug
+					  {% when '9' %}Sep
+					  {% when '10' %}Okt
+					  {% when '11' %}Nov
+					  {% when '12' %}Dec
+					{% endcase %}
+				    </span>
+                                    <span class="year">{{ page.date | date: "%Y"}}</span>
+                                </div>
+                            </div>
+                            <h2 class="blog-post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+{% if 1==0 %}
+                            <div class="blog-post-meta">
+                            	Comments: <span>35</span> | Posted by: <a href="#">Udthemes</a>
+                            </div>
+{% endif %}
+                            {{ content }}
+			</div>
+                    </article>

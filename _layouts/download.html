@@ -1,0 +1,54 @@
+---
+layout: default
+---
+    <div id="content-wrapper">
+    
+<section id="ajaxpage" class="homepage clearfix">
+    <h1>{{ page.title }}</h1>
+    <div class="display-image" style="width:100%;height:auto;">
+        <img src="{{ page.url }}images/{{ page.image }}" alt=""/>
+        <div class="caption caption-color-white bottomRight caption-striped large">
+            	<span>{{ page.subtitle }}</span>
+         </div>
+    </div>  
+	{{ content }}
+	<div class="divider"></div>
+
+ <div id="grid" class="clearfix">
+{% if page.grid %}
+  {% assign images = page.grid %}
+{% else %}
+  {% assign images = page.images %}
+{% endif %}
+{% for entry in images %}
+	{% case entry.type %}
+	  {% when 'landscape' %}{% assign type = 'thumb-type-1' %}
+	  {% when 'portrait' %}{% assign type = 'thumb-type-2' %}
+	  {% when 'large' %}{% assign type = 'thumb-type-3' %}
+	  {% when 'pano' %}{% assign type = 'thumb-type-4' %}
+	{% endcase %}
+	<div class="thumb {{ type }}">
+	   <a class="lightbox" href="{{ page.url }}images/web/{{ entry.image }}" data-caption="{{ entry.image | remove:'.jpg' }}" rel="site" title="{{ entry.image | remove:'.jpg' }}">
+	      <img src="{{ page.url }}images/cartel_grid/{{ entry.image }}" alt="{{ entry.alt }}"/>
+	   </a>
+	{% if entry.label %}
+	   <div class="label label-{{ entry.label }}"></div>
+	{% endif %}
+
+	{% if page.oypo %}
+	   <div style="bottom:0px;right:0px;z-index:6;color:#fff; position:absolute; background-color: #fff;">
+	      <div><script language="JavaScript" src="http://www.oypo.nl/pixxer/api/orderbutton.asp?foto={{ entry.image }}&thumb={{ site.url }}{{ page.url }}images/web/{{ entry.image }}&profielid={{ page.oypo }}&buttonadd=http://www.harveyvandermeer.nl/images/shopping-cart-green.png&buttondel=http://www.harveyvandermeer.nl/images/shopping-cart-red.png"></script></div>
+	   </div>
+	{% endif %}
+
+	{% if entry.caption %}
+	   <div class="caption caption-color-white bottomLeft caption-sinlge-border xsmall" style="width:35%;bottom:25px;left:25px;">
+	      <div>{{ entry.caption }}</div>
+	   </div>
+	{% endif %}
+	</div>
+{% endfor %}
+  </div>
+ 
+</section>
+</div>

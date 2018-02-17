@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+    <div id="content-wrapper">
+    
+<section id="ajaxpage" class="homepage clearfix">
+        
+        	<!--start section title-->
+            <div id="section-title">
+            	<h1>Recent werk en aanbiedingen!</h1>
+            </div>
+        	<!--start content left-->
+            <div class="content-inner-left">
+
+	{{ content }}
+	</div>
+
+                <!--start sidebar-->
+                <aside class="sidebar left">
+                    <ul>
+                        <!--widget-recent-posts-->
+                        <li class="widget_recent_entries">
+                            <h6 class="widgettitle">Recente Berichten</h6>
+			    {% if site.posts.size > 0 %}
+                            <ul>
+ 				{% for post in site.posts limit:5 %}
+		                        <li>
+		                        <a href="{{ post.url }}">{{ post.title }}</a>
+		                        <p class="date">{{ post.date | date: "%e %-b %Y"}}</p>
+		                        </li>
+				{% endfor %}
+                            </ul>
+			    {% else %}
+				<p>Helaas zijn er nog géén berichten.</p>
+			    {% endif %}
+                        </li>
+
+                    </ul>
+                </aside>
+
+ <div id="grid" class="clearfix">
+{% for entry in page.grid %}
+	{% case entry.type %}
+	  {% when 'landscape' %}{% assign type = 'thumb-type-1' %}
+	  {% when 'portrait' %}{% assign type = 'thumb-type-2' %}
+	  {% when 'large' %}{% assign type = 'thumb-type-3' %}
+	  {% when 'panorama' %}{% assign type = 'thumb-type-4' %}
+	{% endcase %}
+	<div class="thumb {{ type }}"><a class="lightbox" href="{{ page.site }}/images/pictures/web/{{ entry.image }}" data-logo="/images/logo.png" rel="images"><img src="{{ page.site }}/images/pictures/cartel_grid/{{ entry.image }}" alt="{{ entry.alt }}"/></a></div>
+{% endfor %}
+  </div>   
+</section>
+</div>

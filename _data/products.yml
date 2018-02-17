@@ -1,0 +1,482 @@
+xpozer:
+  - title: Verhouding 3:2
+    products: 
+      - size: 60 x 40 cm
+        price: €65,00
+      - size: 75 x 50 cm
+        price: €75,00
+      - size: 90 x 60 cm
+        price: €99,00
+      - size: 120 x 80 cm
+        price: €125,00
+      - size: 135 x 90 cm
+        price: €155,00
+  - title: Verhouding 1:1
+    products: 
+      - size: 40 x 40 cm
+        price: €55,00
+      - size: 45 x 45 cm
+        price: €59,00
+      - size: 50 x 50 cm
+        price: €65,00
+      - size: 60 x 60 cm
+        price: €89,00
+      - size: 75 x 75 cm
+        price: €99,00
+      - size: 80 x 80 cm
+        price: €109,00
+      - size: 90 x 90 cm
+        price: €125,00
+  - title: Verhouding 16:9
+    products: 
+      - size: 80 x 45 cm
+        price: €79,00
+      - size: 160 x 90 cm
+        price: €169,00
+  - title: Verhouding 4:3
+    products: 
+      - size: 60 x 45 cm
+        price: €68,00
+      - size: 80 x 60 cm
+        price: €89,00
+      - size: 100 x 75 cm
+        price: €115,00
+      - size: 120 x 90 cm
+        price: €139,00
+  - title: Verhouding 5:4
+    products: 
+      - size: 50 x 40 cm
+        price: €59,00
+      - size: 75 x 60 cm
+        price: €89,00
+      - size: 100 x 80 cm
+        price: €121,00
+  - title: Verhouding 2:1
+    products: 
+      - size: 80 x 40 cm
+        price: €79,00
+      - size: 90 x 45 cm
+        price: €85,00
+      - size: 100 x 50 cm
+        price: €95,00
+      - size: 120 x 60 cm
+        price: €121,00
+      - size: 150 x 75 cm
+        price: €149,00
+      - size: 180 x 90 cm
+        price: €185,00
+diboluxe:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €50,00
+      - size: 45 x 30 cm
+        price: €70,00
+      - size: 60 x 40 cm
+        price: €95,00
+      - size: 75 x 50 cm
+        price: €125,00
+      - size: 90 x 60 cm
+        price: €165,00
+      - size: 105 x 70 cm
+        price: €200,00
+      - size: 120 x 80 cm
+        price: €250,00
+      - size: 150 x 100 cm
+        price: €355,00
+      - size: 180 x 120 cm
+        price: €485,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €40,00
+      - size: 30 x 30 cm
+        price: €60,00
+      - size: 40 x 40 cm
+        price: €75,00
+      - size: 50 x 50 cm
+        price: €95,00
+      - size: 60 x 60 cm
+        price: €125,00
+      - size: 70 x 70 cm
+        price: €155,00
+      - size: 80 x 80 cm
+        price: €190,00
+      - size: 100 x 100 cm
+        price: €255,00
+      - size: 120 x 120 cm
+        price: €340,00
+  - title: Verhouding 16:9
+    products:
+      - size: 36 x 20 cm
+        price: €60,00
+      - size: 53 x 30 cm
+        price: €80,00
+      - size: 71 x 40 cm
+        price: €115,00
+      - size: 89 x 50 cm
+        price: €150,00
+      - size: 107 x 60 cm
+        price: €190,00
+      - size: 124 x 70 cm
+        price: €235,00
+      - size: 142 x 80 cm
+        price: €285,00
+      - size: 178 x 100 cm
+        price: €410,00
+      - size: 213 x 120 cm
+        price: €560,00
+acryluxe33:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €65,00
+      - size: 45 x 30 cm
+        price: €85,00
+      - size: 60 x 40 cm
+        price: €125,00
+      - size: 75 x 50 cm
+        price: €165,00
+      - size: 90 x 60 cm
+        price: €225,00
+      - size: 105 x 70 cm
+        price: €270,00
+      - size: 120 x 80 cm
+        price: €360,00
+      - size: 150 x 100 cm
+        price: €530,00
+      - size: 180 x 120 cm
+        price: €730,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €55,00
+      - size: 30 x 30 cm
+        price: €75,00
+      - size: 40 x 40 cm
+        price: €100,00
+      - size: 50 x 50 cm
+        price: €140,00
+      - size: 60 x 60 cm
+        price: €180,00
+      - size: 70 x 70 cm
+        price: €210,00
+      - size: 80 x 80 cm
+        price: €255,00
+      - size: 100 x 100 cm
+        price: €370,00
+      - size: 120 x 120 cm
+        price: €505,00
+  - title: Verhouding 16:9
+    products:
+      - size: 36 x 20 cm
+        price: €70,00
+      - size: 53 x 30 cm
+        price: €100,00
+      - size: 71 x 40 cm
+        price: €145,00
+      - size: 89 x 50 cm
+        price: €210,00
+      - size: 107 x 60 cm
+        price: €260,00
+      - size: 124 x 70 cm
+        price: €345,00
+      - size: 142 x 80 cm
+        price: €415,00
+      - size: 178 x 100 cm
+        price: €615,00
+      - size: 213 x 120 cm
+        price: €855,00
+acryluxe310:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €80,00
+      - size: 45 x 30 cm
+        price: €110,00
+      - size: 60 x 40 cm
+        price: €175,00
+      - size: 75 x 50 cm
+        price: €230,00
+      - size: 90 x 60 cm
+        price: €315,00
+      - size: 105 x 70 cm
+        price: €390,00
+      - size: 120 x 80 cm
+        price: €500,00
+      - size: 150 x 100 cm
+        price: €740,00
+      - size: 180 x 120 cm
+        price: €1040,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €70,00
+      - size: 30 x 30 cm
+        price: €95,00
+      - size: 40 x 40 cm
+        price: €125,00
+      - size: 50 x 50 cm
+        price: €175,00
+      - size: 60 x 60 cm
+        price: €225,00
+      - size: 70 x 70 cm
+        price: €300,00
+      - size: 80 x 80 cm
+        price: €355,00
+      - size: 100 x 100 cm
+        price: €510,00
+      - size: 120 x 120 cm
+        price: €715,00
+  - title: Verhouding 16:9
+    products:
+      - size: 36 x 20 cm
+        price: €90,00
+      - size: 53 x 30 cm
+        price: €125,00
+      - size: 71 x 40 cm
+        price: €195,00
+      - size: 89 x 50 cm
+        price: €255,00
+      - size: 107 x 60 cm
+        price: €360,00
+      - size: 124 x 70 cm
+        price: €470,00
+      - size: 142 x 80 cm
+        price: €580,00
+      - size: 178 x 100 cm
+        price: €870,00
+      - size: 213 x 120 cm
+        price: €1220,00
+acrylblok:
+  - title: Verhouding 3:2
+    products: 
+      - size: 19 x 13 cm
+        price: €70,00
+      - size: 22 x 15 cm
+        price: €75,00
+      - size: 30 x 20 cm
+        price: €80,00
+      - size: 30 x 20 cm 30mm
+        price: €95,00
+  - title: Verhouding 1:1
+    products: 
+      - size: 15 x 15 cm
+        price: €70,00
+      - size: 20 x 20 cm
+        price: €75,00
+  - title: Verhouding 16:9
+    products: 
+      - size: 23 x 13 cm
+        price: €70,00
+      - size: 27 x 15 cm
+        price: €75,00
+      - size: 35 x 20 cm
+        price: €90,00
+  - title: Panorama
+    products: 
+      - size: 30 x 15 cm
+        price: €70,00
+      - size: 40 x 15 cm
+        price: €80,00
+      - size: 50 x 10 cm
+        price: €95,00
+vurenhout:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €55,00
+      - size: 50 x 30 cm
+        price: €75,00
+      - size: 60 x 40 cm
+        price: €95,00
+      - size: 70 x 50 cm
+        price: €110,00
+      - size: 90 x 60 cm
+        price: €145,00
+      - size: 120 x 80 cm
+        price: €200,00
+      - size: 150 x 100 cm
+        price: €295,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €45,00
+      - size: 30 x 30 cm
+        price: €65,00
+      - size: 40 x 40 cm
+        price: €75,00
+      - size: 50 x 50 cm
+        price: €95,00
+      - size: 60 x 60 cm
+        price: €110,00
+      - size: 70 x 70 cm
+        price: €135,00
+      - size: 80 x 80 cm
+        price: €160,00
+  - title: Verhouding 5:4
+    products:
+      - size: 50 x 40 cm
+        price: €85,00
+      - size: 100 x 80 cm
+        price: €190,00
+  - title: Verhouding 4:3
+    products:
+      - size: 40 x 30 cm
+        price: €70,00
+      - size: 80 x 60 cm
+        price: €135,00
+      - size: 120 x 80 cm
+        price: €200,00
+  - title: Verhouding 2:1
+    products:
+      - size: 40 x 20 cm
+        price: €60,00
+      - size: 80 x 40 cm
+        price: €110,00
+      - size: 100 x 50 cm
+        price: €140,00
+      - size: 200 x 100 cm
+        price: €385,00
+steigerhout:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €65,00
+      - size: 50 x 30 cm
+        price: €90,00
+      - size: 60 x 40 cm
+        price: €120,00
+      - size: 70 x 50 cm
+        price: €155,00
+      - size: 90 x 60 cm
+        price: €215,00
+      - size: 120 x 80 cm
+        price: €300,00
+      - size: 150 x 100 cm
+        price: €505,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €60,00
+      - size: 30 x 30 cm
+        price: €75,00
+      - size: 40 x 40 cm
+        price: €95,00
+      - size: 50 x 50 cm
+        price: €125,00
+      - size: 60 x 60 cm
+        price: €155,00
+      - size: 70 x 70 cm
+        price: €195,00
+      - size: 80 x 80 cm
+        price: €245,00
+  - title: Verhouding 5:4
+    products:
+      - size: 50 x 40 cm
+        price: €105,00
+      - size: 100 x 80 cm
+        price: €285,00
+  - title: Verhouding 4:3
+    products:
+      - size: 40 x 30 cm
+        price: €80,00
+      - size: 80 x 60 cm
+        price: €200,00
+      - size: 120 x 80 cm
+        price: €330,00
+  - title: Verhouding 2:1
+    products:
+      - size: 40 x 20 cm
+        price: €70,00
+      - size: 80 x 40 cm
+        price: €140,00
+      - size: 100 x 50 cm
+        price: €200,00
+      - size: 200 x 100 cm
+        price: €650,00
+ayoushout:
+  - title: Verhouding 3:2
+    products:
+      - size: 30 x 20 cm
+        price: €60,00
+      - size: 50 x 30 cm
+        price: €80,00
+      - size: 60 x 40 cm
+        price: €100,00
+      - size: 70 x 50 cm
+        price: €120,00
+      - size: 90 x 60 cm
+        price: €160,00
+      - size: 120 x 80 cm
+        price: €230,00
+      - size: 150 x 100 cm
+        price: €340,00
+  - title: Verhouding 1:1
+    products:
+      - size: 20 x 20 cm
+        price: €55,00
+      - size: 30 x 30 cm
+        price: €70,00
+      - size: 40 x 40 cm
+        price: €85,00
+      - size: 50 x 50 cm
+        price: €105,00
+      - size: 60 x 60 cm
+        price: €125,00
+      - size: 70 x 70 cm
+        price: €155,00
+      - size: 80 x 80 cm
+        price: €185,00
+  - title: Verhouding 5:4
+    products:
+      - size: 50 x 40 cm
+        price: €90,00
+      - size: 100 x 80 cm
+        price: €205,00
+  - title: Verhouding 4:3
+    products:
+      - size: 40 x 30 cm
+        price: €75,00
+      - size: 80 x 60 cm
+        price: €150,00
+      - size: 120 x 80 cm
+        price: €230,00
+  - title: Verhouding 2:1
+    products:
+      - size: 40 x 20 cm
+        price: €65,00
+      - size: 80 x 40 cm
+        price: €120,00
+      - size: 100 x 50 cm
+        price: €155,00
+      - size: 200 x 100 cm
+        price: €435,00
+fotoafdruk:
+  - title: Fotoafdrukken All-In (2015+)
+    products:
+      - size: 10x15cm
+        price: €0,50
+      - size: 13x19cm
+        price: €0,75
+      - size: 15x22cm
+        price: €1,25
+      - size: 20x30cm
+        price: €2,50
+  - title: Fotoafdrukken (t/m 2014)
+    products:
+      - size: 10x15cm
+        price: €2,50
+      - size: 13x19cm
+        price: €3,50
+      - size: 15x22cm
+        price: €4,50
+      - size: 20x30cm
+        price: €8,50
+  - title: Fotoafdrukken vergrotingen
+    products:
+      - size: v.a. 20 x 30 cm
+        price: prijzen op aanvraag.
+
+    
+

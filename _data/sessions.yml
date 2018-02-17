@@ -1,0 +1,60 @@
+zwangerschap:
+  title: Zwangerschap
+  prijs: €125,00
+  aantal: 20
+  duur: 1½ - 2 uur in de studio
+  persons: 2
+newborn:
+  title: Newborn
+  prijs: €175,00
+  aantal: 20
+  duur: 2½ - 3 uur op locatie
+  persons: 1
+  extra: Inclusief gebruik van mutsjes en andere accessoires
+kids:
+  title: Kids 
+  prijs: €65,00
+  aantal: 10
+  duur: ½ uur in de studio
+  persons: max. 2
+kids-xl:
+  title: Kids XL
+  prijs: €105,00
+  aantal: 20
+  duur: 1 uur in de studio
+  persons: max. 4
+cakesmash:
+  title: Cakesmash
+  prijs: €125,00
+  aantal: 20
+  duur: 1 uur in de studio
+  persons: max. 4
+fotoshoot-l:
+  title: Fotoshoot L 
+  prijs: €105,00
+  aantal: 20
+  duur: 1 uur in de studio
+fotoshoot-m:
+  title: Fotoshoot M 
+  prijs: €65,00
+  aantal: 10
+  duur: ½ uur in de studio
+kinderfeestje-basic:
+  title: Fotofeestje
+  prijs: €15,00 p.p.
+  aantal: 5 p.p.
+  duur: 2 uur in de studio
+  persons: 6 tot 10
+kinderfeestje-visagie:
+  title: Fotofeestje met visagiste
+  prijs: €20,00 p.p.
+  aantal: 5 p.p.
+  duur: 2 uur in de studio
+  persons: 6 tot 10
+kinderfeestje-vip:
+  title: Fotofeestje VIP
+  prijs: €22,50 p.p.
+  aantal: 5 p.p.
+  duur: 2 uur in de studio
+  persons: 6 tot 10
+  extra: 
