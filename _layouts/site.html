@@ -29,7 +29,7 @@ layout: default
 	  {% when 'pano' %}{% assign type = 'thumb-type-4' %}
 	{% endcase %}
 	<div class="thumb {{ type }}">
-	   <a class="lightbox" href="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}web/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" data-caption="{{ entry.image | remove:'.jpg' }}" rel="site" title="{{ entry.image | remove:'.jpg' }}">
+	   <a href="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}web/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" data-caption="{{ entry.image | remove:'.jpg' }}" rel="site" title="{{ entry.image | remove:'.jpg' }}">
 	      <img src="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}cartel_grid/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" alt="{{ entry.alt }}"/>
 	   </a>
 	{% if entry.label %}
