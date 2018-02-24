@@ -7,7 +7,7 @@ layout: default
 <section id="ajaxpage" class="homepage clearfix">
     <h1>{{ page.title }}</h1>
     <div class="display-image" style="width:100%;height:auto;">
-        <img src="{{ page.url }}images/{{ page.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" alt=""/>
+        <img src="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}{{ page.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" alt=""/>
         <div class="caption caption-color-white bottomRight caption-striped large">
             	<span>{{ page.subtitle }}</span>
          </div>
@@ -29,8 +29,8 @@ layout: default
 	  {% when 'pano' %}{% assign type = 'thumb-type-4' %}
 	{% endcase %}
 	<div class="thumb {{ type }}">
-	   <a class="lightbox" href="{{ page.url }}images/web/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" data-caption="{{ entry.image | remove:'.jpg' }}" rel="site" title="{{ entry.image | remove:'.jpg' }}">
-	      <img src="{{ page.url }}images/cartel_grid/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" alt="{{ entry.alt }}"/>
+	   <a class="lightbox" href="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}web/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" data-caption="{{ entry.image | remove:'.jpg' }}" rel="site" title="{{ entry.image | remove:'.jpg' }}">
+	      <img src="http://res.cloudinary.com/harveyvandermeer/image/upload{{ page.url }}cartel_grid/{{ entry.image }}{% if page.revision %}?rev={{ page.revision}}{% endif %}" alt="{{ entry.alt }}"/>
 	   </a>
 	{% if entry.label %}
 	   <div class="label label-{{ entry.label }}"></div>
